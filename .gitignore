@@ -1,0 +1,33 @@
+# Minimal MCP local metadata
+.minimal-mcp/
+
+# Research results / model artifacts
+models/
+third_party/
+node_modules/
+*.bundle
+.build/
+build/
+.cache/
+*.gguf.part
+*.tmp
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.parquet
+results/**/*
+!results/README.md
+# Protect private large traces unless intentionally reviewed and curated
+data/
+cache/
+traces/
